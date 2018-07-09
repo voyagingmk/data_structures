@@ -16,7 +16,7 @@ int MinInOrder(int* numbers, int index1, int index2)
 int Min(int* numbers, int length)
 {
     if(numbers == NULL || length <= 0)
-        throw "Invali(3 parameters";
+        throw "Invalid parameters";
     int index1 = 0;
     int index2 = length - 1;
     int indexMid = index1;
